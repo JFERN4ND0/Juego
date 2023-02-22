@@ -4,13 +4,38 @@
   height: 50px;
   left: 50px;
 }
+.main-juego {
+  background-color: coral;
+  display: flex;
+  flex-direction: row;
 
-.juego {
-  background-color: aquamarine;
-  border: 1.3px solid red;
-}
+  &-option {
+    background-color: aquamarine;
+    border: 1.3px solid red;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    // grid-template-rows: 50% 50%;
 
-.colorRed {
-  background-color: bisque;
-  border: 1.3px solid red;
+    &__colorRed {
+      background-color: $red-color;
+    }
+
+    &__colorGreen {
+      background-color: $green-color;
+    }
+
+    &__colorBlue {
+      background-color: $blue-color;
+    }
+
+    &__colorYellow {
+      background-color: $yellow-color;
+    }
+  }
+
+  &__pregunta {
+    background-color: cadetblue;
+    height: 150px;
+    width: 50px;
+  }
 }
