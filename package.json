@@ -9,12 +9,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.20.7",
-    "@babel/core": "^7.20.12",
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
     "@babel/preset-env": "^7.20.2",
-    "@babel/register": "^7.18.9",
+    "@babel/register": "^7.21.0",
     "autoprefixer": "^10.4.13",
-    "browser-sync": "^2.27.11",
+    "browser-sync": "^2.27.12",
     "browserslist": "^4.21.5",
     "cssnano": "^5.1.15",
     "gulp": "^4.0.2",
@@ -30,7 +30,7 @@
     "gulp-sass": "^5.1.0",
     "gulp-terser": "^2.1.0",
     "gulp-uglify": "^3.0.2",
-    "node": "^19.6.0",
+    "node": "^19.6.1",
     "pug": "^3.0.2",
     "sass": "^1.58.3"
   }
